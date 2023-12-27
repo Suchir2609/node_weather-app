@@ -1,14 +1,7 @@
-console.log('client sided javascript is loaded')
-
-
-
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const messageOne = document.querySelector('#message-1')
 const messageTwo = document.querySelector('#message-2') //# is used to target id, . is used to target class
-
-
-
 
 weatherForm.addEventListener('submit',(e)=>{   //event listener is anything to do with that element, there is a different eventlistener for hovering over something or scrolling
     e.preventDefault()
